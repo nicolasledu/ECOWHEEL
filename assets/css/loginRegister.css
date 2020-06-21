@@ -1,0 +1,171 @@
+
+a{
+    text-decoration: none;
+}
+
+form{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.account{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.login{
+    margin-top: 2%;
+}
+
+.user{
+    text-align: center;
+    margin-top: 10% ;   
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%
+}
+
+.userPanel{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(53,99,224);
+    box-shadow: 0px 5px 5px gray;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.userPanel1{
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 20px;
+    background-color: rgba(77, 218, 12, 0.753);
+    box-shadow: 0px 5px 5px gray;
+    margin-left: 2%;
+}
+
+.userPanel2{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(235, 64, 64, 0.753);
+    box-shadow: 0px 5px 5px gray;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.account{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 20%
+}
+
+.register{
+    margin-top: 10px;
+    background-color: rgb(53,99,224);
+    box-shadow: 0px 5px 7px gray;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 20px;
+  
+}
+
+.login{
+    margin-top: 10px;
+    background-color: rgb(53,99,224);
+    box-shadow: 0px 5px 7px gray;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 20px;
+    
+}
+
+.btnOrder{
+    color: white;
+}
+
+.btnAdmin{
+  
+    color: white;
+}
+
+.btnDisconnect{
+    color: white;
+}
+
+.btnRegister{
+    color: white;
+}
+   
+
+.btnConnect{
+    color: white;
+}
+
+.btnProfile{
+    color: white;
+}
+       
+@media (max-width: 900px){
+
+    .user {
+        margin-top: 20%;
+    }   
+
+    .account{
+        margin-top: 25%;    
+    }
+
+    form{
+        margin-top: 25%;  
+    }
+
+
+}
+
+
+
+@media (max-width: 500px){
+
+    .user {
+        margin-top: 35%;
+    }   
+}
+
+
+
+
+@media (max-width: 375px){
+
+    .user {
+        margin-top: 65%;
+    }   
+
+    form{
+        margin-top: 60%;  
+    }
+}
+
+@media (max-width: 260px){
+
+    .user {
+        margin-top: 76%;
+    }   
+
+    form{
+        margin-top: 80%;  
+    }
+}
